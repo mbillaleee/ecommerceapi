@@ -1,0 +1,31 @@
+.header-main {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.padding-y-sm {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.breadcrumb.ondark .breadcrumb-item {
+    color: #fff;
+}
+.breadcrumb.ondark a {
+    color: inherit;
+    opacity: .75;
+}
+.list-check>ul {
+    position: relative;
+
+}
+.list-check>li::before {
+    
+    font-weight: 900;
+    font-size: 13px;
+    color: #33b750;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    content: "";
+}
