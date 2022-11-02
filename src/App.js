@@ -9,6 +9,7 @@ import Services from './pages/Services';
 import About from './components/About';
 import Breadcome from './components/Breadcome';
 import Productdetails from './pages/Productdetails';
+import Cart from './pages/Cart';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
           <Route path="/product-details" element={<Productdetails />} />
+          <Route path="/cart" element={<Cart />} />
           </Routes>
       </BrowserRouter>
 
